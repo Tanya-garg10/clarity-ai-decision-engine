@@ -6,8 +6,6 @@ A hackathon-ready web app that uses **Google Gemini** to analyze real-life decis
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-red)
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-2.5--flash-yellow)
 
----
-
 ## ✨ Features
 
 - **Structured Decision Analysis** – situation breakdown, options with pros/cons, risks, key insight, recommendation, and confidence score
@@ -15,8 +13,6 @@ A hackathon-ready web app that uses **Google Gemini** to analyze real-life decis
 - **Clean UI** – card-based layout with color-coded sections
 - **Sample Inputs** – one-click examples for career, financial, and personal decisions
 - **Zero Config** – just add your API key and run
-
----
 
 ## 🚀 Quick Start
 
@@ -33,6 +29,7 @@ pip install -r requirements.txt
 Get a free key at <https://aistudio.google.com/app/apikey>, then either:
 
 - Create a `.env` file (copy from the example):
+  
   ```bash
   cp .env.example .env
   # edit .env and paste your key
@@ -47,8 +44,6 @@ streamlit run app.py
 
 The app opens at `http://localhost:8501`.
 
----
-
 ## 📂 Project Structure
 
 ```
@@ -60,13 +55,9 @@ clarity-ai-decision-engine/
 └── README.md           # This file
 ```
 
----
-
 ## 🧪 Sample Test Inputs
 
 See [sample_inputs.md](sample_inputs.md) for ready-to-paste scenarios covering career, financial, and personal decisions.
-
----
 
 ## 🛠️ How It Works
 
@@ -75,14 +66,10 @@ See [sample_inputs.md](sample_inputs.md) for ready-to-paste scenarios covering c
 3. Gemini returns a structured JSON response.
 4. Streamlit renders the analysis in color-coded cards.
 
----
-
 ## 🙌 Built With
 
 - [Streamlit](https://streamlit.io/) – UI framework
 - [Google Gemini API](https://ai.google.dev/) – AI intelligence
 - [Python](https://www.python.org/) – backend language
-
----
 
 <p align="center">Made with ❤️ for hackathons</p>
